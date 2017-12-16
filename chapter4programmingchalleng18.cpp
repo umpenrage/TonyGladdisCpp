@@ -17,7 +17,7 @@ int main()
     cout << "Please indicate the amount of grams of fat and the total amount of calories per serving: ";
     cin>> amountOfFatGrams;
     cin>> totalCalories;
-    //calculates and ensures that the amount of calories in fat are not > total calories per serving
+    //calculates and ensures that the amount of calories in fat are not > total calories per serving & that the user does not input negative answers
     totalCaloriesFromFat = FAT_PER_GRAM * amountOfFatGrams;
     if(amountOfFatGrams < 0)
     {
