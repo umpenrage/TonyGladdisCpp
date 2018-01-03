@@ -98,7 +98,7 @@ int main()
             }
 
 
-            if(abs(answer-computerAnswer) <0.01 ){//this prevents false errors due to different types of variable types. Everything is converted into double.
+            if(answer==computerAnswer ){//this prevents false errors due to different types of variable types. Everything is converted into double.
                 cout << "You are correct"<<endl<<endl;
             }
             else{
