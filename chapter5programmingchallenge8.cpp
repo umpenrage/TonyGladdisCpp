@@ -16,7 +16,7 @@ int main()
     cout<< "Type 1, 2, 3, 4 or 5: ";
     int input;
     cin >> input;
-    if(input > 5 || input <1){
+    if(static_cast<int>(input) > 5 || input <1){
         bool wrongSelection = true;
         while(wrongSelection){
             cout << "You have selected an invalid input.\nPlease type 1, 2, 3, 4 or 5: ";
