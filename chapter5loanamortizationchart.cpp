@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
     ofstream outputFile;
-    outputFile.open("C:\\Users\\Java-programming\\Desktop\\loanAmort.doc");
+    outputFile.open("C:\\(your path here)\\amort.doc");
     /*
         this file will display a loan amortization chart and output it to a word doc.
         formula for payment  is [monthlyinterest * loanAmount * (1+interestRate/12)^(term of loan(years)*12)]/[(1+interestRate/12)^(termofloan(years*12))-1
